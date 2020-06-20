@@ -43,5 +43,14 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryBLL\LibraryBLL.csproj">
+      <Project>{2fe03692-fd8a-4ee5-aa93-9d29a8d48c75}</Project>
+      <Name>LibraryBLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LibraryAppStorage.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

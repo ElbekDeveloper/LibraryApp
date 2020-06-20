@@ -10,6 +10,8 @@ namespace LibraryUI
     {
         static void Main(string[] args)
         {
+
+            Console.ReadKey();
         }
     }
 }
