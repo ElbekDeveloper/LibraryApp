@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using LibraryBLL;
 
@@ -22,7 +23,8 @@ namespace LibraryUI
                 Console.WriteLine("Return back to menu? (yes/no)");
                 answer = Console.ReadLine();
             } while (answer.Trim() == "yes");
-            Console.ReadKey();
+            Console.WriteLine("Closing...");
+            Thread.Sleep(2000);
         }
     }
 }

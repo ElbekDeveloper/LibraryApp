@@ -23,7 +23,7 @@ namespace LibraryBLL
         public static void GiveOptions()
         {
             Console.WriteLine("WELCOME TO DIGITAL LIBRARY");
-            Console.WriteLine("1. Read data from text file\n2. Add new book");
+            Console.WriteLine("1. Read data from text file\n2. Add new book\n");
             Console.Write("Please choose one menu item: ");
             string option = Console.ReadLine();
             Console.Clear();
